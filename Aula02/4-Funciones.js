@@ -19,10 +19,14 @@
                 ],
                 saldo:200,
                 //A las funciones se le conoce también como métodos.
-                efectuarPago:function(precioProduto){
+
+                //Para acceder a la  propiedad, utilizamos this.saldo(propiedad)
+               /*  //expresion de funcion anonima 
+                Cuando una funcion se define dentro de un objeto , dea de llmarse "funcion " y pasa a llamarse método */
+                efectuarPago: function (precioProduto){
                     if(precioProduto<=this.saldo){
 
-                        console.log("Realizano el cobro")
+                        console.log("Realiza el cobro");
                         this.saldo -= precioProduto;
 
                         console.log(`Pago exitoso. Saldo restante: ${this.saldo}`);

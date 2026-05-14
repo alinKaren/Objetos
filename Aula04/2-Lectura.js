@@ -6,7 +6,7 @@ console.log(datos);
 //imprime el tipo de dato de datos 
 console.log("\n Tipo de dato: " + typeof datos);
 
-//funcion  JSON.stringify() : recibe un objeto y lo convierte en texto (ligero)         JSON.parse()
+//funcion  JSON.stringify() : recibe un objeto y lo convierte en texto (ligero)         
 const datosString = JSON.stringify(datos); //método stringify() Convierte un valor JavaScript a una cadena JSON  
 console.log(datosString);
 console.group(typeof datosString); 

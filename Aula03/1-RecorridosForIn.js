@@ -20,9 +20,9 @@
 
     }
 
-
     //los arreglos en javascript tambien son considerados objetos
     for(let propiedad in cliente){
+          console.log(`la propiedad ${propiedad} : tiene el valor ${cliente[propiedad]}\n`);
         let tipo =typeof cliente[propiedad];
         if (tipo !== "object" && tipo !== "function"){
         console.log(`la propiedad ${propiedad} : tiene el valor ${cliente[propiedad]}\n`);

@@ -18,7 +18,9 @@ console.log(objPersonaje2+'\n');
 
 console.log("Por prototipo: \n"); 
 /*Object.create() (por prototipo): Es como tener una plantilla o inspiración para crear un nuevo destino independiente. 
-Puedes modificar el nuevo destino sin afectar la plantilla original. */
+Puedes modificar el nuevo destino sin afectar la plantilla original. 
+
+El método Object.create() crea un objeto nuevo, utilizando un objeto existente como el prototipo del nuevo objeto creado.*/
 
 const objPersonaje3 = {
  nombre: "Gandalf",

@@ -1,4 +1,4 @@
-var trabajador = {
+const trabajador = {
     nombre : "Alin Meneses", 
     carrera: "Sistemas Estratégicos de la Información"
 }

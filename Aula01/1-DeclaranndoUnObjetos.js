@@ -38,8 +38,6 @@ console.log("Ejemplo con forEach y acceso a objetos con corchetes []");
     }
 
     llaves.forEach((llave) => {
-
-
     console.log(`
     La llave : ${llave}
     tiene el valor ${telefono[llave]}
